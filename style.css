@@ -1,0 +1,171 @@
+
+body{
+    background: linear-gradient(rgba(207, 206, 216, 0.623), #D3D8E8);;
+    padding: 0px;
+    background-size: cover;
+    background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+header{
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+.navbar-brand{
+    font-size: 30px;
+
+    margin-top: 8px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: aquamarine;
+}
+.nav-item{
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover,
+.navbar-light .navbar-nav .nav-item .nav-link{
+    background: rgba(3, 83, 36, 0.836);
+    color: #ffffff;
+    display: flex;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+    padding: 5px 15px;
+}
+.navbar-light .navbar-toggler{
+    border: none;
+    color:darkgrey;
+    background:darkgrey;
+    border: 2px solid ;
+    
+}
+.img-fluid{
+    height: 358px;
+    margin-top: 265px;
+    margin-left: 40px;
+}
+.text-allign{
+    padding-top: 285px;
+    padding-left: 80px;
+
+}
+.text-allign h4 p{
+    font-weight: lighter;
+    padding: 1px;
+}
+.btn{
+    color: rgb(216, 216, 218);
+    background: rgb(76, 76, 218);
+}
+.btn:hover{
+    background: mediumslateblue;
+}
+.row-card{
+    margin-left: 8px;
+    margin-top: 85px;
+}
+.align{
+    margin-top: 225px;
+}
+.card-img-top{
+    height: 230px;
+}
+.skill-align{
+    margin-top: 200px;
+    
+}
+.skill{
+    width: 500px;
+    margin: 50px,auto;
+    padding: 20px;
+}
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+  }
+  
+  .skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: black;
+  }
+  
+  .skill-bar{
+    height: 20px;
+    background: #cacaca;
+    border-radius: 8px;
+  }
+  
+  .skill-per{
+    height: 20px;
+    background-color:darkcyan;
+    border-radius: 8px;
+    width: 0;
+    transition: 1s linear;
+    position: relative;
+  }
+  
+  .skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+  }
+  
+  .skill-per::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    top: -16px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+  }
+  .responsive{
+      margin-left: -61px;
+  }
+  .contact-me{
+    margin-bottom: 65px;
+    margin-top: 34px;
+
+  }
+  .footer-align{
+      margin-top: 19px;
+      background: url(https://cdn.pixabay.com/photo/2016/07/08/15/44/banner-1504653__340.png);
+      padding-top: 15px;
+  }
+  .copyrights{
+    margin-top: 18px;
+    font-size: 17px;
+}
+.header-style{
+    position: fixed;
+    width: 100%;
+    background: url(https://cdn.pixabay.com/photo/2016/07/08/15/44/banner-1504653__340.png);
+}
+.quote{
+    font-family: monospace;
+    margin: 24px;
+}
+.img-thumbnail{
+    background: rgb(69, 87, 65);;
+}
+    
+
+
+    
